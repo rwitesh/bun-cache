@@ -1,4 +1,4 @@
-import { List, type Node } from "./list";
+import { List, type Node } from "../list";
 
 export class LRU<K> {
   private nodes = new Map<K, Node<K>>();
