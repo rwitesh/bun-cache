@@ -1,6 +1,7 @@
 {
-  "name": "buncache",
+  "name": "@rwiteshbera/buncache",
   "module": "index.ts",
+  "version": "1.0.1",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"

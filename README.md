@@ -1,12 +1,6 @@
 # BunCache
 
-## Pluggable in-memory cache with swappable eviction policies. Built for [Bun](https://bun.com).
-
-### Install
-
-```bash
-bun install
-```
+## Pluggable in-memory cache with swappable eviction policies.
 
 ### API
 
@@ -70,17 +64,5 @@ const randomCache = new Cache(100, new Random<string>());
 
 // No eviction (default): unbounded or reject new keys when at maxSize
 const noEvictionCache = new Cache(100); // or new Cache(100, new NoEviction())
-```
-
-### Run
-
-```bash
-bun run index.ts
-```
-
-Or run the main entry point directly:
-
-```bash
-bun index.ts
 ```
 
